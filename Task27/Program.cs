@@ -5,3 +5,14 @@
 9012 -> 12
 */
 
+int DigitSum(int num)
+{
+    int sum = 0;
+    while (num>=1)
+    {
+        sum = sum + num%10;
+        num = num/10;
+    }
+    return sum;
+}
+Console.Write($"{DigitSum(82)}");
