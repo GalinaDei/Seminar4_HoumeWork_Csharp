@@ -10,7 +10,7 @@ string massiv = string.Join(",",array);
 Console.WriteLine ($"{massiv}");
 */
   
-Console.WriteLine("Введите 8 чисел, разделенные запятой  пробелом");
+Console.WriteLine("Введите 8 чисел, разделенные запятой и пробелом");
 string text = Console.ReadLine()??"";
 string[] array = text.Split(", ");
 Console.Write($"{text} -> [");
